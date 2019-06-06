@@ -1,3 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?u88ioq");
+  src: url("../fonts/icomoon.eot?u88ioq#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?u88ioq") format("truetype"), url("../fonts/icomoon.woff?u88ioq") format("woff"), url("../fonts/icomoon.svg?u88ioq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\f002";
+}
+
+.icon-star:before {
+  content: "\f005";
+}
+
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+.icon-phone:before {
+  content: "\f095";
+}
+
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+
+.icon-bars:before {
+  content: "\f0c9";
+}
+
+.icon-navicon:before {
+  content: "\f0c9";
+}
+
+.icon-reorder:before {
+  content: "\f0c9";
+}
+
+.icon-envelope:before {
+  content: "\f0e0";
+}
+
+.icon-bolt:before {
+  content: "\f0e7";
+}
+
+.icon-flash:before {
+  content: "\f0e7";
+}
+
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+.icon-location-arrow:before {
+  content: "\f124";
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -806,4 +888,32 @@ ul li {
   font-size: 36px;
   font-weight: 700;
   color: #263238;
+}
+
+.breadcrumbs {
+  padding: 45px 0px 40px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  padding-right: 9px;
+}
+
+.breadcrumbs li:after {
+  content: '-';
+  color: #8bc34a;
+  margin-left: 9px;
+}
+
+.breadcrumbs li:last-child a {
+  color: #263238;
+}
+
+.breadcrumbs li:last-child:after {
+  display: none;
+}
+
+.breadcrumbs a {
+  font-size: 15px;
+  color: #b0bec5;
 }
