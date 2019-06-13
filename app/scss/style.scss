@@ -664,3 +664,164 @@ ul{
 		color: #b0bec5;
 	}
 }
+
+.category{
+	background-color: #f4f5f6;
+	padding-bottom: 110px;
+}
+.price-range{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	padding: 0px 30px;
+	padding-bottom: 30px;
+}
+.price-range__title{
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 20px;
+	line-height: 60px;
+	color: #263238;
+}
+.price-range__form{
+	button{
+		margin-top: 60px;
+		background-color: $top;
+		width: 100%;
+		text-align: center;
+		font-weight: 500;
+		color: #fff;
+		border: none;
+		line-height: 40px;
+		cursor: pointer;
+		position: relative;
+		&:before{
+			content: "\f002";
+			font-family: 'icomoon';
+			position: absolute;
+			left: 50px;
+		}
+	}
+	.irs--round .irs-bar {
+    height: 5px;
+    background-color: #37474f;
+	}
+	.irs--round .irs-line {
+    height: 5px;
+    background-color: #f2f5f8;
+    border-radius: 4px;
+}
+.irs--round .irs-handle {
+	top: 30px;
+	width: 16px;
+	height: 16px;
+	border: 4px solid $top;
+	background-color: #fff;
+	border-radius: 16px;
+}
+.irs-min,
+.irs-max{
+	display: none;
+}
+.irs--round .irs-from, .irs--round .irs-single, .irs--round .irs-to {
+	font-size: 15px;
+	line-height: 1;
+	text-shadow: none;
+	padding: 3px 5px;
+	background-color: transparent;
+	color: #78909c;
+	border-radius: 4px;
+}
+.irs--round .irs-from:before, .irs--round .irs-single:before, .irs--round .irs-to:before{
+	display: none;
+}
+.irs-from, .irs-single, .irs-to{
+	top: 53px;
+}
+}
+.pagination{
+	padding-top: 60px;
+	li{
+		display: inline-block;
+		& + li{
+			padding-left: 8px;
+		}
+	}
+}
+.pagination__btn{
+	text-align: center;
+	width: 43px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	font-weight: 500;
+	color: #263238;
+	box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+	&.active{
+		background-color: $red;
+		color: #fff;
+	}
+}
+
+
+// upload page
+
+.upload{
+	background-color: #f4f5f6;
+}
+.upload__wrapper{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+}
+.upload__title{
+	font-size: 24px;
+	line-height: 60px;
+	color: #263238;
+	border-bottom: 1px solid #dcdcdc;
+	padding-left: 30px;
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+.upload__form-item{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	padding-right: 50px;
+	display: flex;
+	label{
+		display: block;
+		width: 175px;
+		padding-right: 15px;
+		color: #444;
+		padding-top: 10px;
+		sup{
+			color: $top;
+			font-size: 20px;
+			top: 0;
+		}
+	}
+	.jq-selectbox__select{
+		border-radius: 0px;
+		border: 1px solid #dcdcdc;
+		height: 40px;
+		background: #f9f9f9;
+    box-shadow: none;
+		text-shadow: none;
+		padding: 0 45px 0 15px;
+	}
+	.jq-selectbox{
+		width: 100%;
+	}
+	.jq-selectbox__trigger{
+		height: 0;
+	}
+	.jq-selectbox__select-text{
+		line-height: 40px;
+	}
+	.jq-selectbox__trigger-arrow {
+    top: 16px;
+    right: 15px;
+    border-top: 4px solid #444;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+}
